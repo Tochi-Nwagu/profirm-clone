@@ -1,0 +1,175 @@
+/* Tablet */
+@media screen and (min-width: 1024px) {
+  .header {
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .nav {
+    display: flex;
+  }
+
+  .nav_list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  .list_item {
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    color: #777;
+  }
+
+  .list_item.active {
+    color: #fdbc46;
+  }
+
+  .hero {
+    left: 3%;
+  }
+
+  .about {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    max-width: 85%;
+    left: 9%;
+  }
+  .ratings {
+    width: 70%;
+    margin-top: -2%;
+    margin-bottom: 50px;
+    z-index: 3;
+    position: relative;
+    left: 12%;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  /* .about {
+    display: flex;
+    margin-top: 100px;
+  } */
+
+  .about {
+    display: flex;
+    text-align: left;
+
+    /* align-content: center; */
+    /* margin: 10% auto; */
+    /* padding: 50px; */
+  }
+
+  .about_img,
+  .about_text {
+    margin-top: 10%;
+  }
+
+  .about_img {
+    min-width: 50%;
+    margin-top: 10%;
+  }
+
+  .para_about {
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    text-align: left;
+    width: 500px;
+    padding-left: 5px;
+  }
+
+  .about-para {
+    width: 300px;
+    padding-bottom: 30px;
+  }
+
+  .support {
+    margin-top: 5px;
+  }
+
+  .founder img {
+    margin-top: 5px;
+  }
+
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* left: 5%; */
+    padding: 10px;
+  }
+
+  .para_service {
+    width: 520px;
+    font-size: 18.3px;
+  }
+
+  .service-card {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin-top: 50px;
+    left: 10%;
+  }
+
+  .case1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .case_text,
+  .para_text {
+    width: 550px;
+    font-size: 16.2px;
+  }
+
+  .case2 {
+    width: 98%;
+    flex-wrap: nowrap;
+    margin-left: 40px;
+  }
+
+  .box1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 2px solid #f3f3f3;
+  }
+
+  .box2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .card_box {
+    margin-bottom: 20px;
+  }
+
+  .box img {
+    width: 100%;
+  }
+
+  .pages-text {
+    font-size: 24px;
+    padding: 30px;
+  }
+
+  .testimonial {
+    padding-left: 30px;
+  }
+
+  .text1 {
+    width: 520px;
+    font-size: 18.3px;
+  }
+}

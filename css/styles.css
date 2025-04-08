@@ -1,0 +1,283 @@
+.header {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: none;
+}
+
+.call_btn {
+  background-color: #fdbc46;
+  min-width: 120px;
+  height: 40px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+.hero {
+  width: 95%;
+  height: 620px;
+  position: relative;
+  left: 4%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://profecient.jegtheme.com/profirm/wp-content/uploads/sites/38/2024/06/successful-business-team-looking-at-camera-in-office-e1616121933689.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 10px 0px -2px rgb(239, 167, 34);
+}
+
+.ratings {
+  min-width: 80%;
+  text-align: left;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+  /* margin-bottom: 40px; */
+  border-radius: 10px;
+  left: 5%;
+  /* position: absolute; */
+}
+
+.icon {
+  font-size: 32px;
+  color: #ff9900;
+  align-items: center;
+  padding: 10px;
+}
+
+.number {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.icon_para {
+  font-size: 14px;
+  color: #666;
+}
+
+.nums_icon {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f5c15b;
+  position: absolute;
+  top: 5;
+  right: 5;
+  transform: translateX(30%);
+}
+
+.stats {
+  padding-bottom: 10px;
+}
+
+/*  */
+
+.about_img {
+  min-width: 320px;
+  height: 400px;
+  object-fit: cover;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 0px -2px rgb(239, 167, 34);
+}
+
+.about-text {
+  margin-bottom: 0;
+}
+
+.about {
+  margin: 20px;
+  color: #959595;
+}
+
+.icon2 {
+  color: #fdbc46;
+}
+.about-para {
+  padding: 15px;
+}
+.support {
+  margin: 20px;
+  gap: 20px;
+}
+
+.subheading1 {
+  color: #242424;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.founder {
+  margin: 15px;
+}
+.founder img {
+  width: 150px;
+  /* margin: 15px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.services {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.service,
+.caseStudy {
+  background-color: #f9f9f9;
+}
+
+.para_service {
+  color: #8a8a8a;
+  font-size: 16px;
+}
+
+.service-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.cards {
+  min-width: 80px;
+  height: 300px;
+  margin: 20px;
+  border: transparent;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 7px 14px 5px 0px rgba(242, 242, 242, 0.75);
+}
+
+.card {
+  height: 72px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.subheading2,
+.card-text {
+  font-size: 18px;
+  color: #242424;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.more {
+  text-decoration: none;
+  font-size: 14px;
+  color: #f5c15b;
+}
+
+.caseStudy {
+  background-color: #f8f8f8;
+}
+.cases {
+  padding-top: 40px;
+}
+
+.heading_cases {
+  font-size: 26px;
+  color: #484848;
+  margin-bottom: 80px;
+  margin: 20px 20px 40px 20px;
+}
+
+.case1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  position: relative;
+  left: 4%;
+}
+
+.case_text,
+.para_text {
+  min-width: 320px;
+  font-size: 14.5px;
+  text-align: left;
+  color: #a5a5a5;
+  margin-bottom: 20px;
+}
+
+.case2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 70%;
+  margin-top: 30px;
+}
+
+.card_box {
+  min-width: 190px;
+  height: 400px;
+  padding: 20px;
+
+  background-color: #fff;
+  border: transparent;
+
+  /* box-shadow: 10px 10px 368px 10px rgba(165, 165, 165, 0.75); */
+  box-shadow: 7px 14px 5px 0px rgba(242, 242, 242, 0.75);
+}
+
+.box img {
+  min-width: 170px;
+  height: 220px;
+  padding-top: 10px;
+  padding-left: 10px;
+  object-fit: cover;
+}
+
+.para_text {
+  padding-left: 20px;
+}
+
+.card_box > h3 {
+  text-align: left;
+  color: #484848;
+  padding: 20px;
+}
+
+.pages,
+.blog {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.pg-label {
+  margin: 20px;
+}
+
+.pages-text {
+  color: #959595;
+  padding: 10px;
+  text-align: left;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonial {
+  display: flex;
+  gap: 30px;
+  align-content: flex-start;
+}
+
+.testimonial_text {
+  margin-top: 30px;
+}
