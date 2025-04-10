@@ -19,11 +19,11 @@
 }
 
 .hero {
-  width: 95%;
-  height: 620px;
+  width: 93%;
+  height: 550px;
   position: relative;
   left: 4%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url('https://profecient.jegtheme.com/profirm/wp-content/uploads/sites/38/2024/06/successful-business-team-looking-at-camera-in-office-e1616121933689.webp');
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,15 +32,49 @@
   box-shadow: 0px 10px 0px -2px rgb(239, 167, 34);
 }
 
+.hero_box {
+  width: 60%;
+  position: relative;
+  top: 30%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.heading1 {
+  font-size: 14px;
+  color: #faf9f7;
+  font-weight: 400;
+}
+.quote {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* min-width: 100%;
+  gap: 30px; */
+}
+
+.quote_para {
+  color: #787779;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
 .ratings {
-  min-width: 80%;
+  width: 300px;
   text-align: left;
   padding: 20px;
+  padding-left: 40px;
   background-color: #f8f8f8;
   margin-top: 20px;
+  margin-left: 20px;
   /* margin-bottom: 40px; */
   border-radius: 10px;
-  left: 5%;
+  left: 10%;
   /* position: absolute; */
 }
 
@@ -78,7 +112,7 @@
 /*  */
 
 .about_img {
-  min-width: 320px;
+  min-width: 300px;
   height: 400px;
   object-fit: cover;
   margin-left: 20px;
@@ -91,7 +125,7 @@
 }
 
 .about {
-  margin: 20px;
+  margin: 30px 20px;
   color: #959595;
 }
 
@@ -105,7 +139,9 @@
   margin: 20px;
   gap: 20px;
 }
-
+.abtn {
+  margin-left: 10px;
+}
 .subheading1 {
   color: #242424;
   font-weight: 600;
@@ -113,6 +149,14 @@
 }
 .founder {
   margin: 15px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.name {
+  color: #242424;
 }
 .founder img {
   width: 150px;
@@ -124,7 +168,7 @@
 .services {
   text-align: center;
   margin-top: 40px;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .service,
@@ -132,7 +176,8 @@
   background-color: #f9f9f9;
 }
 
-.para_service {
+.para_service,
+.text1 {
   color: #8a8a8a;
   font-size: 16px;
 }
@@ -184,14 +229,18 @@
   background-color: #f8f8f8;
 }
 .cases {
-  padding-top: 40px;
+  /* position: relative;
+  left: 2%; */
+  margin-left: 3%;
+
+  padding-top: 30px;
 }
 
 .heading_cases {
   font-size: 26px;
   color: #484848;
   margin-bottom: 80px;
-  margin: 20px 20px 40px 20px;
+  margin: 20px 20px 40px 25px;
 }
 
 .case1 {
@@ -207,6 +256,7 @@
   min-width: 320px;
   font-size: 14.5px;
   text-align: left;
+  padding-left: 0;
   color: #a5a5a5;
   margin-bottom: 20px;
 }
@@ -215,14 +265,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  min-width: 70%;
+  /* width: 60%; */
   margin-top: 30px;
 }
 
 .card_box {
   min-width: 190px;
   height: 400px;
-  padding: 20px;
+  padding: 20px 10px;
 
   background-color: #fff;
   border: transparent;
@@ -230,7 +280,10 @@
   /* box-shadow: 10px 10px 368px 10px rgba(165, 165, 165, 0.75); */
   box-shadow: 7px 14px 5px 0px rgba(242, 242, 242, 0.75);
 }
-
+.box {
+  min-width: 180px;
+  margin-bottom: 40px;
+}
 .box img {
   min-width: 170px;
   height: 220px;
@@ -280,4 +333,172 @@
 
 .testimonial_text {
   margin-top: 30px;
+}
+
+.ourBlog {
+  background-color: #f8f8f8;
+
+  margin-bottom: 30px;
+}
+
+.blog_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 30px;
+}
+
+.blog_box {
+  min-width: 280px;
+  height: 450px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.blog_box img {
+  width: 280px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.blog_box h3 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.blog_p,
+.more {
+  color: #a5a5a5;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.more {
+  font-size: 14px;
+  color: #fdbc46;
+  text-decoration: none;
+}
+
+.consult {
+  width: 95%;
+  height: 400px;
+  position: relative;
+  left: 3%;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url('/images/successful-business-team-working-in-office-e1616121949313.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  box-shadow: 0px 10px 0px -2px rgb(239, 167, 34);
+}
+
+.consult-box {
+  text-align: center;
+  padding: 20px;
+  padding-top: 60px;
+  /* width: 60%;
+  position: relative;
+  top: 20%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px; */
+}
+
+.heading {
+  color: #fff;
+  font-size: 36px;
+}
+
+.consult_para {
+  color: #787a79;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.footer {
+  padding-left: 20px;
+}
+
+.footer_list {
+  list-style: none;
+}
+
+.footer_text,
+.footer_link {
+  color: #959595;
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+.footer_text {
+  width: 320px;
+  font-size: 16.5px;
+}
+
+.footer_text,
+.footer_links {
+  padding: 20px 0;
+}
+
+.footer_list li {
+  margin-bottom: 30px;
+}
+
+.footer_list li:first-child {
+  margin-top: 30px;
+}
+
+#email {
+  min-width: 35%;
+  height: 50px;
+  background-color: #f9f9f9;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  color: #959595;
+}
+
+form {
+  margin: 20px 0;
+}
+
+.subBottom {
+  height: 60px;
+  min-width: 80px;
+  background-color: #f5c15b;
+  border: transparent;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.copy {
+  width: 88%;
+  height: 100px;
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.design,
+.copyright {
+  color: #959595;
+  padding-bottom: 20px;
+}
+
+span {
+  color: #f5c15b;
 }

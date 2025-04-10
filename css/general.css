@@ -12,6 +12,18 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   gap: 20px;
+  padding-top: 80px;
+}
+
+.cta_btn {
+  width: 120px;
+  height: 40px;
+  background-color: #fdbc46;
+  border: transparent;
+  border-radius: 10px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-weight: bold;
 }
 
 .subheading {
@@ -38,6 +50,7 @@ body {
   font-size: 28px;
   color: #484848;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 
 .label {
@@ -47,4 +60,30 @@ body {
   border: transparent;
   border-radius: 5px;
   margin-left: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.transparent_label {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  height: 30px;
+  padding: 4px 4px 4px 4px;
+  border: transparent;
+  border-radius: 5px;
+  /* position: absolute; */
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+button {
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-4px);
 }
